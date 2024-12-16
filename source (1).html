@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Computadoras</title>
+    <style>
+    body {
+    font-family: Calisto MT, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    color: blue;
+}
+
+header {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: darkgray;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item h3 {
+    color: blueviolet;
+}
+
+.product-item p {
+  color: blueviolet;
+    font-size: 1em;
+}
+
+.price {
+    font-size: 1.5em;
+    color: Tomato;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+    </style>
+<style type="text/css">
+.grande { font-size: 60px; }
+</style>
+<script>
+// Escribir aqui el código Javascript
+</script>
+<style type="text/css">
+.grande { font-size: 60px; }
+</style>
+<script>
+// Escribir aqui el código Javascript
+</script>
+</head>
+<body>
+    <header>
+        <h1>Venta de Computadoras</h1>
+        <p>Aqui en FIXIE TECHNOLOGY tenemos lo mejor de las computadoras:</p>
+    </header>
+
+    <section>
+        <h2>PRODUCTOS QUE OFRECEMOS:</h2>
+
+        <div class="product">
+            <div class="product-item">
+                <img src="https://www.cybermarket.pe/wp-content/uploads/2020/10/pc-lg-monitor-teclado-mouse-1.jpg">
+                <h3>Computadora Intel Core i3, 8GB RAM DDR4, 250GB SSD, Monitor HD 18.5”, Teclado y mouse</h3>
+                Monitor HD 18.5″ Intel Core i3-10100 a 3.60Ghz 
+8GB RAM DDR4
+Disco 250GB SSD Teclado y mouse.
+                <p class="price">S/1,899.00</p>
+                <button class="btn" onclick="agregarAlCarrito('Computadora de Escritorio', 2500)">obtèn aqui</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://mipclista.com/7495-home_default/pc-gamer-haku-amd-a10-7700k.jpg">
+                <h3>PC Gamer Haku RGB AMD Ryzen 5 4600G</h3>
+                <p>AMD Ryzen 5 4600G, 3.7GHz/4.2GHz
+6 núcleos, 12 hilos, 8MB caché L3
+AM4, 65W
+Disco Sólido M.2 500GB NVMe 
+Memoria RAM 8GB DDR4
+Monitor Widescreen 19" HD
+Mainboard Chipset A520
+Fuente de Poder Real 400W
+KIT GAMER TEROS:
+Teclado + Mouse</p>
+                <p class="price">S/ 4,500</p>
+                <button class="btn" onclick="agregarAlCarrito('Laptop Gaming', 4500)">Comprar</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/133615679_01/w=1500,h=1500,fit=pad">
+                <h3>PC All-in-One</h3>
+                <p>Intel Core i5 8th 2.8.GHz
+9 MB caché, 6 núcleos, 6 hilos
+Disco Duro HDD 500GB
+Disco Sólido SSD 256GB
+RAM 16GB DDR4
+Pantalla 22” FHD
+Intel HD Graphics 630
+6 USB 2.0
+RJ45 / DisplayPort / VGA
+Wifi / Conector de Audio y Micrófono
+Kit teclado mouse inalámbrico
+
+CYBER PC
+Llévate gratis:
++ Parlantes
++Cámara Web HD</p>
+                <p class="price">S/ 3,000</p>
+                <button class="btn" onclick="agregarAlCarrito('PC All-in-One', 3000)">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function agregarAlCarrito(nombreProducto, precio) {
+            alert("Has agregado " + nombreProducto + " al carrito. Precio: S/ " + precio);
+        }
+    </script>
+
+
+
+
+</body></html>
